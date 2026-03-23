@@ -9,4 +9,4 @@ RUN apt-get update && \
     chown -R 1000:1000 /etc/ssmtp && \
     chmod 644 /etc/ssmtp/revaliases 2>/dev/null || true
 
-USER 1000:1000
+USER 33:33
